@@ -1,0 +1,134 @@
+<mxfile host="Electron">
+  <diagram name="Сторінка-1" id="lJOJxcMvj1s0Z6qfihAM">
+    <mxGraphModel dx="774" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TeXu7yWLBwnjdcq88taL-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="" vertex="1">
+          <mxGeometry height="230" width="120" x="450" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="TeXu7yWLBwnjdcq88taL-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="" vertex="1">
+          <mxGeometry height="230" width="150" x="280" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="TeXu7yWLBwnjdcq88taL-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="230" width="160" x="100" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="TeXu7yWLBwnjdcq88taL-14" edge="1" parent="1" source="TeXu7yWLBwnjdcq88taL-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="TeXu7yWLBwnjdcq88taL-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TeXu7yWLBwnjdcq88taL-15" edge="1" parent="1" source="TeXu7yWLBwnjdcq88taL-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;dashed=1;dashPattern=1 2;" target="TeXu7yWLBwnjdcq88taL-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TeXu7yWLBwnjdcq88taL-19" edge="1" parent="1" source="TeXu7yWLBwnjdcq88taL-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="TeXu7yWLBwnjdcq88taL-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TeXu7yWLBwnjdcq88taL-1" parent="1" style="image;html=1;image=img/lib/clip_art/networking/Wireless_Router_N_128x128.png" value="WiFi-роутер&lt;br&gt;&lt;b&gt;192.168.0.1&lt;/b&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="140" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="TeXu7yWLBwnjdcq88taL-18" edge="1" parent="1" source="TeXu7yWLBwnjdcq88taL-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="TeXu7yWLBwnjdcq88taL-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TeXu7yWLBwnjdcq88taL-21" edge="1" parent="1" source="TeXu7yWLBwnjdcq88taL-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="TeXu7yWLBwnjdcq88taL-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TeXu7yWLBwnjdcq88taL-2" parent="1" style="image;html=1;image=img/lib/clip_art/networking/Router_128x128.png" value="&lt;b&gt;Головний роутер&lt;br&gt;192.168.0.1&lt;/b&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="470" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="TeXu7yWLBwnjdcq88taL-3" parent="1" style="image;html=1;image=img/lib/clip_art/computers/Netbook_128x128.png" value="192.168.0.&lt;b&gt;2&lt;/b&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="110" y="253.2" as="geometry" />
+        </mxCell>
+        <mxCell id="TeXu7yWLBwnjdcq88taL-4" parent="1" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Smartphone.svg;" value="192.168.0.&lt;b&gt;3&lt;/b&gt;" vertex="1">
+          <mxGeometry height="43.199999999999996" width="19.8" x="210" y="271.59999999999997" as="geometry" />
+        </mxCell>
+        <mxCell id="TeXu7yWLBwnjdcq88taL-5" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_globe.svg;" value="&lt;b&gt;ІНТЕРНЕТ&lt;/b&gt;" vertex="1">
+          <mxGeometry height="50" width="50" x="600" y="145" as="geometry" />
+        </mxCell>
+        <mxCell id="TeXu7yWLBwnjdcq88taL-6" parent="1" style="image;html=1;image=img/lib/clip_art/computers/Netbook_128x128.png" value="192.168.0.&lt;b&gt;2&lt;/b&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="290" y="253.20000000000002" as="geometry" />
+        </mxCell>
+        <mxCell id="TeXu7yWLBwnjdcq88taL-7" parent="1" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Smartphone.svg;" value="192.168.0.&lt;b&gt;3&lt;/b&gt;" vertex="1">
+          <mxGeometry height="43.199999999999996" width="19.8" x="380" y="271.6" as="geometry" />
+        </mxCell>
+        <mxCell id="TeXu7yWLBwnjdcq88taL-16" edge="1" parent="1" source="TeXu7yWLBwnjdcq88taL-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="TeXu7yWLBwnjdcq88taL-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TeXu7yWLBwnjdcq88taL-17" edge="1" parent="1" source="TeXu7yWLBwnjdcq88taL-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;dashed=1;dashPattern=1 2;" target="TeXu7yWLBwnjdcq88taL-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TeXu7yWLBwnjdcq88taL-20" edge="1" parent="1" source="TeXu7yWLBwnjdcq88taL-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="TeXu7yWLBwnjdcq88taL-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TeXu7yWLBwnjdcq88taL-8" parent="1" style="image;html=1;image=img/lib/clip_art/networking/Wireless_Router_128x128.png" value="WiFi-роутер&lt;br&gt;&lt;b&gt;192.168.0.1&lt;/b&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="315" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="TeXu7yWLBwnjdcq88taL-13" parent="1" style="image;html=1;image=img/lib/clip_art/computers/Netbook_128x128.png" value="192.168.0.&lt;b&gt;2&lt;/b&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="470" y="253.2" as="geometry" />
+        </mxCell>
+        <mxCell id="TeXu7yWLBwnjdcq88taL-26" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;МАРШРУТИЗАТОРИ&lt;/h1&gt;&lt;p&gt;Всі WiFI-маршрутизатори в режимі маршрутизації&lt;/p&gt;" vertex="1">
+          <mxGeometry height="70" width="290" x="220" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TeXu7yWLBwnjdcq88taL-48" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="" vertex="1">
+          <mxGeometry height="230" width="470" x="100" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="TeXu7yWLBwnjdcq88taL-51" edge="1" parent="1" source="TeXu7yWLBwnjdcq88taL-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="TeXu7yWLBwnjdcq88taL-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TeXu7yWLBwnjdcq88taL-53" edge="1" parent="1" source="TeXu7yWLBwnjdcq88taL-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="TeXu7yWLBwnjdcq88taL-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TeXu7yWLBwnjdcq88taL-69" edge="1" parent="1" source="TeXu7yWLBwnjdcq88taL-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 2;" target="TeXu7yWLBwnjdcq88taL-59" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TeXu7yWLBwnjdcq88taL-54" parent="1" style="image;html=1;image=img/lib/clip_art/networking/Wireless_Router_N_128x128.png" value="Точка доступу" vertex="1">
+          <mxGeometry height="80" width="80" x="140" y="485" as="geometry" />
+        </mxCell>
+        <mxCell id="TeXu7yWLBwnjdcq88taL-55" edge="1" parent="1" source="TeXu7yWLBwnjdcq88taL-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="TeXu7yWLBwnjdcq88taL-67">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TeXu7yWLBwnjdcq88taL-56" edge="1" parent="1" source="TeXu7yWLBwnjdcq88taL-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="TeXu7yWLBwnjdcq88taL-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TeXu7yWLBwnjdcq88taL-57" parent="1" style="image;html=1;image=img/lib/clip_art/networking/Router_128x128.png" value="&lt;b&gt;Головний роутер&lt;br&gt;192.168.0.1&lt;/b&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="470" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="TeXu7yWLBwnjdcq88taL-58" parent="1" style="image;html=1;image=img/lib/clip_art/computers/Netbook_128x128.png" value="192.168.0.&lt;b&gt;6&lt;/b&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="110" y="623.2" as="geometry" />
+        </mxCell>
+        <mxCell id="TeXu7yWLBwnjdcq88taL-59" parent="1" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Smartphone.svg;" value="192.168.0.&lt;b&gt;5&lt;/b&gt;" vertex="1">
+          <mxGeometry height="43.199999999999996" width="19.8" x="210" y="641.5999999999999" as="geometry" />
+        </mxCell>
+        <mxCell id="TeXu7yWLBwnjdcq88taL-60" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_globe.svg;" value="&lt;b&gt;ІНТЕРНЕТ&lt;/b&gt;" vertex="1">
+          <mxGeometry height="50" width="50" x="600" y="515" as="geometry" />
+        </mxCell>
+        <mxCell id="TeXu7yWLBwnjdcq88taL-61" parent="1" style="image;html=1;image=img/lib/clip_art/computers/Netbook_128x128.png" value="192.168.0.&lt;b&gt;4&lt;/b&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="290" y="623.2" as="geometry" />
+        </mxCell>
+        <mxCell id="TeXu7yWLBwnjdcq88taL-62" parent="1" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Smartphone.svg;" value="192.168.0.&lt;b&gt;3&lt;/b&gt;" vertex="1">
+          <mxGeometry height="43.199999999999996" width="19.8" x="380" y="641.6" as="geometry" />
+        </mxCell>
+        <mxCell id="TeXu7yWLBwnjdcq88taL-63" edge="1" parent="1" source="TeXu7yWLBwnjdcq88taL-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="TeXu7yWLBwnjdcq88taL-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TeXu7yWLBwnjdcq88taL-64" edge="1" parent="1" source="TeXu7yWLBwnjdcq88taL-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;dashed=1;dashPattern=1 2;" target="TeXu7yWLBwnjdcq88taL-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TeXu7yWLBwnjdcq88taL-65" edge="1" parent="1" source="TeXu7yWLBwnjdcq88taL-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="TeXu7yWLBwnjdcq88taL-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TeXu7yWLBwnjdcq88taL-66" parent="1" style="image;html=1;image=img/lib/clip_art/networking/Wireless_Router_128x128.png" value="Точка доступу" vertex="1">
+          <mxGeometry height="80" width="80" x="315" y="485" as="geometry" />
+        </mxCell>
+        <mxCell id="TeXu7yWLBwnjdcq88taL-67" parent="1" style="image;html=1;image=img/lib/clip_art/computers/Netbook_128x128.png" value="192.168.0.&lt;b&gt;2&lt;/b&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="470" y="623.2" as="geometry" />
+        </mxCell>
+        <mxCell id="TeXu7yWLBwnjdcq88taL-68" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;ТОЧКИ ДОСТУПУ&lt;/h1&gt;&lt;p&gt;Всі WiFI-маршрутизатори в режимі моста&lt;/p&gt;" vertex="1">
+          <mxGeometry height="70" width="290" x="220" y="410" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

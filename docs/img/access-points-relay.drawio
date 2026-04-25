@@ -1,0 +1,73 @@
+<mxfile host="Electron">
+  <diagram name="Сторінка-1" id="lJOJxcMvj1s0Z6qfihAM">
+    <mxGraphModel dx="774" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TeXu7yWLBwnjdcq88taL-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="" vertex="1">
+          <mxGeometry height="230" width="550" x="20" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="TeXu7yWLBwnjdcq88taL-18" edge="1" parent="1" source="TeXu7yWLBwnjdcq88taL-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="TeXu7yWLBwnjdcq88taL-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TeXu7yWLBwnjdcq88taL-21" edge="1" parent="1" source="TeXu7yWLBwnjdcq88taL-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="TeXu7yWLBwnjdcq88taL-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TeXu7yWLBwnjdcq88taL-2" parent="1" style="image;html=1;image=img/lib/clip_art/networking/Router_128x128.png" value="&lt;b&gt;Головний роутер&lt;br&gt;192.168.0.1&lt;/b&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="470" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="TeXu7yWLBwnjdcq88taL-5" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_globe.svg;" value="&lt;b&gt;ІНТЕРНЕТ&lt;/b&gt;" vertex="1">
+          <mxGeometry height="50" width="50" x="600" y="145" as="geometry" />
+        </mxCell>
+        <mxCell id="TeXu7yWLBwnjdcq88taL-6" parent="1" style="image;html=1;image=img/lib/clip_art/computers/Netbook_128x128.png" value="192.168.0.&lt;b&gt;3&lt;/b&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="30" y="261.20000000000005" as="geometry" />
+        </mxCell>
+        <mxCell id="TeXu7yWLBwnjdcq88taL-16" edge="1" parent="1" source="TeXu7yWLBwnjdcq88taL-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="TeXu7yWLBwnjdcq88taL-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TeXu7yWLBwnjdcq88taL-8" parent="1" style="html=1;image=img/lib/clip_art/networking/Switch_128x128.png;shape=image;labelBackgroundColor=default;verticalAlign=top;verticalLabelPosition=bottom;" value="Комутатор" vertex="1">
+          <mxGeometry height="60" width="80" x="55" y="143" as="geometry" />
+        </mxCell>
+        <mxCell id="TeXu7yWLBwnjdcq88taL-13" parent="1" style="image;html=1;image=img/lib/clip_art/computers/Netbook_128x128.png" value="192.168.0.&lt;b&gt;2&lt;/b&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="470" y="253.2" as="geometry" />
+        </mxCell>
+        <mxCell id="TeXu7yWLBwnjdcq88taL-26" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Релейна станція&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="45" width="200" x="214" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9cWcd_Yk2iPEebHPpugD-9" edge="1" parent="1" source="9cWcd_Yk2iPEebHPpugD-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 2;" target="9cWcd_Yk2iPEebHPpugD-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9cWcd_Yk2iPEebHPpugD-11" connectable="0" parent="9cWcd_Yk2iPEebHPpugD-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="WiFi" vertex="1">
+          <mxGeometry relative="1" x="-0.444" y="-2" as="geometry">
+            <mxPoint x="10" y="15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9cWcd_Yk2iPEebHPpugD-1" parent="1" style="strokeColor=#ffffff;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.cisco.wireless.satellite_dish;rotation=90;" value="" vertex="1">
+          <mxGeometry height="54" width="60" x="150" y="146" as="geometry" />
+        </mxCell>
+        <mxCell id="9cWcd_Yk2iPEebHPpugD-4" edge="1" parent="1" source="9cWcd_Yk2iPEebHPpugD-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.98;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="TeXu7yWLBwnjdcq88taL-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9cWcd_Yk2iPEebHPpugD-2" parent="1" style="strokeColor=#ffffff;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.cisco.wireless.satellite_dish;rotation=-90;" value="" vertex="1">
+          <mxGeometry height="54" width="60" x="400" y="146" as="geometry" />
+        </mxCell>
+        <mxCell id="9cWcd_Yk2iPEebHPpugD-3" edge="1" parent="1" source="TeXu7yWLBwnjdcq88taL-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0.98;entryDx=0;entryDy=0;entryPerimeter=0;" target="9cWcd_Yk2iPEebHPpugD-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9cWcd_Yk2iPEebHPpugD-10" edge="1" parent="1" source="9cWcd_Yk2iPEebHPpugD-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 2;" target="9cWcd_Yk2iPEebHPpugD-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9cWcd_Yk2iPEebHPpugD-12" connectable="0" parent="9cWcd_Yk2iPEebHPpugD-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="WiFi" vertex="1">
+          <mxGeometry relative="1" x="-0.0837" y="1" as="geometry">
+            <mxPoint x="1" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9cWcd_Yk2iPEebHPpugD-8" parent="1" style="sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.cisco.wireless.radio_tower;strokeColor=#036897;" value="" vertex="1">
+          <mxGeometry height="101" width="37" x="290" y="160" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

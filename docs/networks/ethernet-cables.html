@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>кабелі (Ethernet)</title>
+  <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<h1 id="документація-про-ethernet-кабелі">Документація про
+Ethernet-кабелі</h1>
+<p>Цей документ містить огляд основних типів, характеристик та
+стандартів Ethernet-кабелів, які використовуються в сучасних
+комп’ютерних мережах.</p>
+<h2 id="що-таке-ethernet-кабель">1. Що таке Ethernet-кабель?</h2>
+<p>Ethernet-кабель — це фізичний засіб передачі даних у локальних
+комп’ютерних мережах (LAN). Більшість сучасних Ethernet-кабелів
+базуються на технології “витаної пари” (Twisted Pair), де дроти скручені
+між собою для зменшення електромагнітних перешкод.</p>
+<h2 id="класифікація-за-типом-екранування">2. Класифікація за типом
+екранування</h2>
+<p>Залежно від способу захисту від перешкод, кабелі поділяються на:</p>
+<ul>
+<li><strong>UTP (Unshielded Twisted Pair)</strong> — неекранована вита
+пара. Найпопулярніший і найдешевший тип. Не має додаткового захисту,
+тому чутливий до зовнішніх перешкод.</li>
+<li><strong>FTP (Foiled Twisted Pair)</strong> — вита пара з одним
+загальним екраном (фольгою) під оболонкою.</li>
+<li><strong>STP (Shielded Twisted Pair)</strong> — вита пара з
+індивідуальним екрануванням кожної пари. Найкраще захищена від
+перешкод.</li>
+<li><strong>SFTP (Screened Foiled Twisted Pair)</strong> — поєднання
+обох методів: кожна пара має фольгу, а весь кабель має загальний екран
+(сітку або фольгу).</li>
+</ul>
+<h2 id="категорії-кабелів-categories">3. Категорії кабелів
+(Categories)</h2>
+<p>Категорія кабелю визначає його пропускну здатність та частотний
+діапазон.</p>
+<table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Категорія</th>
+<th style="text-align: left;">Максимальна швидкість</th>
+<th style="text-align: left;">Максимальна частота</th>
+<th style="text-align: left;">Примітки</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Cat 5</strong></td>
+<td style="text-align: left;">100 Mbps</td>
+<td style="text-align: left;">100 MHz</td>
+<td style="text-align: left;">Застаріла, майже не використовується</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Cat 5e</strong></td>
+<td style="text-align: left;">1 Gbps</td>
+<td style="text-align: left;">100 MHz</td>
+<td style="text-align: left;">Найпоширеніший стандарт для домашніх
+мереж</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Cat 6</strong></td>
+<td style="text-align: left;">1-10 Gbps</td>
+<td style="text-align: left;">250 MHz</td>
+<td style="text-align: left;">Краще захищена від перешкод, ніж 5e</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Cat 6a</strong></td>
+<td style="text-align: left;">10 Gbps</td>
+<td style="text-align: left;">500 MHz</td>
+<td style="text-align: left;">Оптимальна для дата-центрів та професійних
+мереж</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Cat 7</strong></td>
+<td style="text-align: left;">10 Gbps</td>
+<td style="text-align: left;">600 MHz</td>
+<td style="text-align: left;">Високий рівень захисту, вимагає
+спеціальних конекторів</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Cat 8</strong></td>
+<td style="text-align: left;">25-40 Gbps</td>
+<td style="text-align: left;">2000 MHz</td>
+<td style="text-align: left;">Оптимальна для коротких дистанцій у
+серверних кімнатах</td>
+</tr>
+</tbody>
+</table>
+<h2 id="розпіновка-стандарти-t568a-та-t568b">4. Розпіновка (Стандарти
+T568A та T568B)</h2>
+<p>Для обтиску кабелю використовуються два стандарти кольорового
+маркування: <strong>T568A</strong> та <strong>T568B</strong>. У сучасних
+мережах найчастіше використовується <strong>T568B</strong>.</p>
+<h3 id="порядок-кольорів-для-t568b">Порядок кольорів для T568B:</h3>
+<ol type="1">
+<li>Біло-помаранчевий</li>
+<li>Помаранчевий</li>
+<li>Біло-зелений</li>
+<li>Синій</li>
+<li>Біло-синій</li>
+<li>Зелений</li>
+<li>Біло-коричневий</li>
+<li>Коричневий</li>
+</ol>
+<h2 id="типи-підключення">5. Типи підключення</h2>
+<ul>
+<li><strong>Straight-through (Прямий кабель):</strong> Обидва кінці
+обтиснуті за одним стандартом (наприклад, обидва T568B).
+Використовується для з’єднання різних пристроїв (наприклад, комп’ютер
+-&gt; комутатор).</li>
+<li><strong>Crossover (Перехресний кабель):</strong> Один кінець T568A,
+інший — T568B. Використовувався раніше для з’єднання однакових пристроїв
+(наприклад, комп’ютер -&gt; комп’ютер). Сучасне обладнання має функцію
+<strong>Auto-MDIX</strong>, тому цей тип кабелю майже не потрібен.</li>
+</ul>
+<h2 id="поради-щодо-вибору">6. Поради щодо вибору</h2>
+<ol type="1">
+<li><strong>Для дому:</strong> Cat 5e або Cat 6 буде цілком
+достатньо.</li>
+<li><strong>Для геймінгу та стримінгу:</strong> Cat 6 забезпечить
+стабільнішу роботу з меншими затримками.</li>
+<li><strong>Для майбутнього (Future-proofing):</strong> Якщо ви робите
+ремонт і прокладаєте кабель у стіни, краще відразу використовувати Cat
+6a.</li>
+<li><strong>Відстань:</strong> Пам’ятайте, що максимальна довжина
+Ethernet-кабелю без втрати якості становить <strong>100
+метрів</strong>.</li>
+</ol>
+</body>
+</html>

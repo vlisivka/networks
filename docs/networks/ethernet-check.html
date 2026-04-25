@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>ethernet-check</title>
+  <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<p>“— title: перевірка Ethernet-кабелів та роз’ємів —</p>
+<h1
+id="документація-про-перевірку-ethernet-кабелів-та-розємів">Документація
+про перевірку Ethernet-кабелів та роз’ємів</h1>
+<p>Цей документ описує методи та інструменти для діагностики цілісності
+кабелів та якості з’єднань у мережі Ethernet.</p>
+<h2 id="основні-ознаки-несправності">1. Основні ознаки несправності</h2>
+<p>Перш ніж переходити до складних тестів, варто звернути увагу на
+наступні симптоми:</p>
+<ul>
+<li><strong>Повна відсутність зв’язку:</strong> Кабель або роз’єм
+фізично пошкоджені, або немає живлення на пристрої.</li>
+<li><strong>Низька швидкість (Link Speed):</strong> Якщо кабель Cat 5e
+має пошкоджену одну з пар, швидкість може впасти з 1 Гбіт/с до 100
+Мбіт/с (через перехід на 2-паровий режим).</li>
+<li><strong>Переривчасте з’єднання (Intermittent Connection):</strong>
+Поява та зникнення зв’язку при русі кабелю або роз’єму (часто свідчить
+про поганий контакт у коннекторі).</li>
+<li><strong>Високий рівень втрат пакетів (Packet Loss):</strong>
+Пошкоджена ізоляція або погане екранування призводять до помилок
+передачі даних.</li>
+</ul>
+<h2 id="методи-перевірки">2. Методи перевірки</h2>
+<h3 id="візуальний-огляд">2.1. Візуальний огляд</h3>
+<p>Найпростіший етап перевірки: * <strong>Оболонка кабелю:</strong>
+Перевірка на наявність заломів, розрізів або сильного стискання. *
+<strong>Роз’єми (RJ-45):</strong> Перевірка на наявність окислення
+контактів, кривих “ніжок” або залишків старого обтиску. *
+<strong>Кольорування:</strong> Перевірка відповідності кольорів
+стандарту T568A/B у роз’ємі.</p>
+<h3 id="використання-тестерів-кабелів">2.2. Використання тестерів
+кабелів</h3>
+<p>Існують різні рівні пристроїв для перевірки:</p>
+<ol type="1">
+<li><strong>Прості LED-тестери (Continuity Testers):</strong>
+<ul>
+<li>Перевіряють лише цілісність жил (чи проходить сигнал від кінця до
+кінця).</li>
+<li>Показують розрив лінії або переплутані жили (miswiring).</li>
+<li><em>Обмеження:</em> Не показують швидкість, наведення або
+затримки.</li>
+</ul></li>
+<li><strong>Цифрові тестери (Wiremap Testers):</strong>
+<ul>
+<li>Більш точні прилади, що визначають тип розпіновки, короткі замикання
+між парами та відстань до місця обриву.</li>
+</ul></li>
+<li><strong>Сертифікаційні тестери (наприклад, Fluke Networks):</strong>
+<ul>
+<li>Професійне обладнання для вимірювання частотних характеристик.</li>
+<li>Перевіряють відповідність категорії кабелю (Cat 5e, 6, 6a
+тощо).</li>
+<li>Вимірюють затухання (Attenuation), наведення (NEXT/FEXT) та втрату
+повернення (Return Loss).</li>
+</ul></li>
+</ol>
+<h3 id="програмна-перевірка">2.3. Програмна перевірка</h3>
+<p>Якщо фізично кабель справний, можна перевірити роботу через ОС:</p>
+<ul>
+<li><strong>Команда <code>ping</code>:</strong> Перевірка втрат пакетів
+та затримки (latency). <code>ping 8.8.8.8 -t</code> (для Windows) або
+<code>ping 8.8.8.8</code> (для Linux).</li>
+<li><strong>Перевірка швидкості інтерфейсу:</strong> Перегляд
+налаштувань мережевої карти (Speed/Duplex) у налаштуваннях ОС або через
+команду <code>ethtool</code> у Linux.</li>
+<li><strong>Speedtest:</strong> Перевірка реальної пропускної здатності
+каналу.</li>
+</ul>
+<h2 id="поради-щодо-усунення-проблем">3. Поради щодо усунення
+проблем</h2>
+<ol type="1">
+<li><strong>Переобтиск:</strong> Якщо проблема в роз’ємі, спробуйте
+відрізати старий конектор і обтиснути кабель новим.</li>
+<li><strong>Заміна кабелю:</strong> Якщо кабель має заломи, найкращим
+рішенням є його повна заміна.</li>
+<li><strong>Перевірка екранування:</strong> Якщо ви використовуєте
+FTP/STP кабель, переконайтеся, що екран заземлений відповідно до
+стандартів, інакше він може працювати як антена для перешкод.</li>
+<li><strong>Уникнення джерел перешкод:</strong> Не прокладайте
+Ethernet-кабель паралельно з силовими кабелями 220V/380V без належного
+екранування.”</li>
+</ol>
+</body>
+</html>

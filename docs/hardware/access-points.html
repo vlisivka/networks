@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Точки доступу</title>
+  <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<h1 id="точки-доступу">Точки доступу</h1>
+<h2 id="визначення">Визначення</h2>
+<p>Маршрутизатор (router, роутер) може працювати так само як комутатор
+(switch, свіч), коли потрібно <em>розширити локальну мережу</em>. В
+загальному такий режим роботи називається «<strong>міст</strong>»
+(bridge, брідж), а для мережі WiFi — «<strong>точка доступу</strong>» до
+мережі (Access Point, акцес поінт).</p>
+<figure>
+<img src="../img/access-points.png"
+alt="Різниця між маршрутизаторами та точками доступу" />
+<figcaption aria-hidden="true"><strong>Різниця між маршрутизаторами та
+точками доступу</strong></figcaption>
+</figure>
+<p>Якщо точка доступу підключена до основного маршрутизатора не по
+кабелю, а <em>по WiFi</em>, то її називають «<strong>розширювач покриття
+WiFi</strong>» (WiFi range extender, вайфай ренж екстендер).</p>
+<figure>
+<img src="../img/access-points-wifi-extender.png"
+alt="Розширювач покриття WiFi" />
+<figcaption aria-hidden="true"><strong>Розширювач покриття
+WiFi</strong></figcaption>
+</figure>
+<p>Якщо сигнал WiFi передається лише між двома <em>комутаторами</em>, а
+звичайні абоненти підключитися не можуть, то це називається
+«<strong>бездротовий міст</strong>» (wireless bridge, ваєрлес
+брідж).</p>
+<figure>
+<img src="../img/access-points-wireless-bridge.png"
+alt="Бездротовий міст" />
+<figcaption aria-hidden="true"><strong>Бездротовий
+міст</strong></figcaption>
+</figure>
+<p>Якщо в бездротовому мості по середині включений розширювач WiFi, то
+його називають «<strong>релейна станція</strong>» (relay, релей).</p>
+<figure>
+<img src="../img/access-points-relay.png" alt="Релейна лінія звʼязку" />
+<figcaption aria-hidden="true"><strong>Релейна лінія
+звʼязку</strong></figcaption>
+</figure>
+<p>Хоча ці пристрої <em>називаються по різному</em>, це все —
+<em>бездротові точки доступу</em> до мережі, і до них можна
+підʼєднуватися при допомозі ноутбуків, телефонів, чи такого ж самого
+обладнання. Далекобійні точки доступу, такі наприклад як AirFiber, які
+можуть передавати сигнал WiFi на кілька кілометрів, потребують сильного
+захисту мережі (<strong>WPA3, AES256</strong>), довгих і складних
+унікальних паролів, та використання VPN при передачі трафіку.</p>
+<h2 id="для-чого">Для чого?</h2>
+<p>Щоб всі абоненти в мережі могли працювати один з одним та головним
+роутером <em>напряму</em>. Коли абоненти не можуть звʼязатися напряму,
+вони змушені використовувати <em>сторонні сайти</em> в інтернеті для
+передачі даних, що <em>погано для безпеки</em> та для швидкості
+звʼязку.</p>
+<figure>
+<img src="../img/access-points-third-party.png"
+alt="Звʼязок через сторонні сайти" />
+<figcaption aria-hidden="true"><strong>Звʼязок через сторонні
+сайти</strong></figcaption>
+</figure>
+<h2 id="що-це-таке">Що це таке?</h2>
+<p>Точка доступу бере сигнал із дротового кабелю (від комутатора або
+маршрутизатора) і перетворює його на Wi-Fi, щоб ваш телефон, ноутбук або
+планшет могли працювати в мережі, не маючи фізичного підключення
+кабелем. На відміну від маршрутизатора, точка доступу не створює свою
+власну локальну мережу, а лише <strong>розширює локальну мережу</strong>
+основного маршрутизатора.</p>
+<h2 id="як-вона-працює">Як вона працює?</h2>
+<ol type="1">
+<li><strong>Отримує підключення по кабелю:</strong> Точка доступу
+підключена кабелем до вашої мережі (зазвичай до комутатора або основного
+маршрутизатора).</li>
+<li><strong>Отримує мережу WiFi:</strong> На точці доступу
+налаштовується мережа WiFi та вмикається режим точки доступу.</li>
+<li><strong>Приймає чи передає сигнали по WiFi:</strong> Спілкується з
+абонентами по WiFi.</li>
+<li><strong>Приймає та передає дані по кабелю:</strong> Спілкується з
+основним маршрутизатором по кабелю.</li>
+</ol>
+<h3 id="чим-точка-доступу-відрізняється-від-маршрутизатора">Чим точка
+доступу відрізняється від маршрутизатора?</h3>
+<ul>
+<li><strong>Маршрутизатор (Router):</strong> Це «мозок» мережі. Він
+керує адресами, розподіляє інтернет і з’єднує вас із зовнішнім світом.
+Більшість домашніх маршрутизаторів — це комбіновані пристрої
+(маршрутизатор + комутатор + NAT + фаєрвол + точка доступу в одному
+корпусі).</li>
+<li><strong>Точка доступу (Access Point):</strong> Це лише «розширювач»
+бездротового покриття. Вона не вміє керувати мережею або роздавати
+інтернет самостійно — їй обов’язково потрібен маршрутизатор, щоб мати
+доступ до Інтернет.</li>
+</ul>
+</body>
+</html>

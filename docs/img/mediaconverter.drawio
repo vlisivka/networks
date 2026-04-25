@@ -1,0 +1,41 @@
+<mxfile host="Electron">
+  <diagram name="Сторінка-1" id="BmT9lpVL3HJgIKsKL9JR">
+    <mxGraphModel dx="774" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tZnktBJ7tvP9LO2o9SMW-1" parent="1" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/media_converters/Media_Converter_Standalone.svg;" value="медіаконвертор" vertex="1">
+          <mxGeometry height="37.2" width="45.6" x="270" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="tZnktBJ7tvP9LO2o9SMW-2" parent="1" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/media_converters/Media_Converter_Standalone.svg;" value="медіаконвертор" vertex="1">
+          <mxGeometry height="37.2" width="45.6" x="500" y="180.4" as="geometry" />
+        </mxCell>
+        <mxCell id="tZnktBJ7tvP9LO2o9SMW-5" parent="1" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png" value="комутатор" vertex="1">
+          <mxGeometry height="80" width="80" x="140" y="159" as="geometry" />
+        </mxCell>
+        <mxCell id="tZnktBJ7tvP9LO2o9SMW-6" parent="1" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png" value="комутатор" vertex="1">
+          <mxGeometry height="80" width="80" x="590" y="159" as="geometry" />
+        </mxCell>
+        <mxCell id="tZnktBJ7tvP9LO2o9SMW-7" edge="1" parent="1" source="tZnktBJ7tvP9LO2o9SMW-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.511;entryDx=0;entryDy=0;entryPerimeter=0;" target="tZnktBJ7tvP9LO2o9SMW-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tZnktBJ7tvP9LO2o9SMW-8" edge="1" parent="1" source="tZnktBJ7tvP9LO2o9SMW-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.943;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="tZnktBJ7tvP9LO2o9SMW-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tZnktBJ7tvP9LO2o9SMW-9" edge="1" parent="1" source="tZnktBJ7tvP9LO2o9SMW-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.033;entryY=0.513;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;strokeColor=#000099;strokeWidth=3;" target="tZnktBJ7tvP9LO2o9SMW-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tZnktBJ7tvP9LO2o9SMW-10" connectable="0" parent="tZnktBJ7tvP9LO2o9SMW-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="оптоволокно" vertex="1">
+          <mxGeometry relative="1" x="-0.321" y="3" as="geometry">
+            <mxPoint x="32" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tZnktBJ7tvP9LO2o9SMW-11" connectable="0" parent="tZnktBJ7tvP9LO2o9SMW-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="кілька кілометрів" vertex="1">
+          <mxGeometry relative="1" x="-0.0381" y="-1" as="geometry">
+            <mxPoint x="10" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

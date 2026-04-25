@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>фаєрволи</title>
+  <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<h1 id="фаєрволи-firewalls">Фаєрволи (Firewalls)</h1>
+<h2 id="що-це-таке">Що це таке?</h2>
+<p>Якщо комутатор — це перехрестя, а маршрутизатор — це регулювальник на
+перехресті, то <strong>фаєрвол (firewall)</strong> — це блокпост на
+дорозі.</p>
+<p>Фаєрвол, або брандмауер (стіна для захисту від поширення вогню) — це
+“фільтр” або “контрольно-пропускний пункт”, який перевіряє весь трафік
+(дані), що намагається увійти у вашу мережу або вийти з неї. Він
+вирішає, кому можна проходити, а кого потрібно зупинити.</p>
+<figure>
+<img src="../img/firewall.png"
+alt="Фаєрвол пропускає нормальний трафік але блокує шкідливий" />
+<figcaption aria-hidden="true">Фаєрвол пропускає нормальний трафік але
+блокує шкідливий</figcaption>
+</figure>
+<p>Існують різні типи фаєрволів, від найпростіших, які просто
+перевіряють номера, до складних з глибокою перевіркою пакетів (DPI, Deep
+Packet Inspection) на загрози, які вимагають високої потужності пристрою
+та значно сповільнюють мережу. Якщо звичайний фаєрвол — це блокпост, то
+DPI — це митниця.</p>
+<h2 id="як-він-працює">Як він працює?</h2>
+<p>Фаєрвол працює на основі набору правил (інструкцій), які ви йому
+надаєте. Наприклад:</p>
+<ol type="1">
+<li><strong>“Дозволити все, що приходить від нашого офісу”</strong>:
+Фаєрвол бачить, що дані йдуть від перевіреного джерела, і пропускає
+їх.</li>
+<li><strong>“Заборонити будь-які спроби підключення з невідомих
+сайтів”</strong>: Якщо хтось із інтернету намагається “постукати” у ваш
+комп’ютер без вашого дозволу, фаєрвол просто блокує його запит.</li>
+</ol>
+<p>Ці правила записуються в таблицю фільтрів (filter) у відповідні
+ланцюжки, такі як FORWARD (пересилання пакетів між мережами), INPUT
+(вхідні пакети до самого роутера), та OUTPUT (вихідні пакети від
+роутера) .</p>
+<figure>
+<img src="../img/firewall-schema.png"
+alt="Схема роботи мережних правил роутера" />
+<figcaption aria-hidden="true">Схема роботи мережних правил
+роутера</figcaption>
+</figure>
+<h2 id="основні-типи-фаєрволів">Основні типи фаєрволів:</h2>
+<ul>
+<li><strong>Програмні (Software Firewalls):</strong> Встановлюються
+прямо на ваш комп’ютер (наприклад, Windows Defender). Вони захищають
+лише один пристрій.</li>
+<li><strong>Апаратні (Hardware Firewalls):</strong> Це окремі фізичні
+фаєрволи або маршрутизатори, які стоять на вході в усю вашу мережу. Вони
+захищають відразу всі пристрої у вашій мережі.</li>
+<li><strong>Апаратні з глибокою перевіркою:</strong> Це окремі фізичні
+пристрої, які вміють перевіряти вміст пакетів та зʼєднань, але вони дуже
+дорогі та їх складно налаштувати.</li>
+</ul>
+<h2 id="чому-він-важливий">Чому він важливий?</h2>
+<p>Без фаєрволу мережа була б відкрита для будь-якої атаки з інтернету.
+Віруси чи хакери можуть автоматично шукати в мережі вразливі пристрої та
+підбирати до них паролі чи використовувати вразливості, і фаєрвол — це
+перший і найголовніший захист від таких спроб.</p>
+<h2 id="яка-відмінність-між-фаєрвол-та-nat">Яка відмінність між фаєрвол
+та NAT?</h2>
+<p>Міжмережний фаєрвол <em>захищає</em> локальну мережу від зовнішніх
+загроз, тоді як NAT (Network Address Translation, підміна мережних
+адрес) <em>приховує адреси</em> абонентів локальної мережі, так що весь
+трафік йде з єдиної адреси роутера.</p>
+<h2 id="які-основні-режими-фаєрволів">Які основні режими фаєрволів?</h2>
+<p>Для офісного роутера — заборонити доступ від усіх зовнішніх адрес до
+внутрішніх компʼютерів, дозволити внутрішнім компʼютерам доступ до
+всього інтернету КРІМ декількох небезпечних сайтів.</p>
+<p>Для релеїв — заборонити доступ до всіх компʼютерів крім тих, куди
+передається трафік. (Звʼязок точка-точка).</p>
+<p>Для фаєрвола, який захищає сервер — дозволити доступ від усіх
+компʼютерів але тільки на один порт сервера.</p>
+<p>Для точки VPN — дозволити доступ з усіх компʼютерів, але тільки на
+порт VPN.</p>
+</body>
+</html>
